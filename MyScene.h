@@ -25,12 +25,8 @@ class MyScene : public Scene
         {
             // Your code here
 	    clearBoard();
-	    //get the class code here
+	    board[y][x] = 'x';
 	    x++;
-
-
-
-
 
             // Keep this call to the parent's version of update()
             Scene::update();
