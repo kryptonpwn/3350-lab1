@@ -25,6 +25,7 @@ class MyScene : public Scene
         {
             // Your code here
 	    clearBoard();
+	    //get the class code here
 	    x++;
 
 
